@@ -2,7 +2,7 @@
 name: Hprofile Actions
 on: workflow_dispatch
 env: 
-  AWS_REGION:us-east-1
+  AWS_REGION: us-east-1
 jobs:
   Testing:
     runs-on: ubuntu-latest
@@ -66,4 +66,3 @@ jobs:
          dockerfile: ./Dockerfile
          context: ./
   ##
-  
